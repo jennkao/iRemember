@@ -122,8 +122,8 @@ $ grunt start-dev
 | Name        | Github           | LinkedIn  | AngelList |
 | ------------- |:-------------:| -----:| -----:|  
 | **Jennifer Kao** | <a href='http://github.com/jennkao'>http://github.com/jennkao</a> | <a href='http://linkedin.com/in/jenn-kao'>http://linkedin.com/in/jenn-kao</a> | <a href='http://angel.co/jennkao'>http://angel.co/jennkao</a> |
-| **Ethan Harry**  | github.com/   | linkedin.com/in/ | angel.co/ |
-| **Lisa Nam** | <a href='http://github.com/lisanam'>http://github.com/lisanam</a>| <a href="http://linkedin.com/in/lisanam-js">linkedin.com/in/lisanam-js</a>  | <a href='http://angel.co/lisa-nam'>http://angel.co/lisa-nam</a> |
+| **Ethan Harry**  | http://github.com/   | http://linkedin.com/in/ | http://angel.co/ |
+| **Lisa Nam** | <a href='http://github.com/lisanam'>http://github.com/lisanam</a>| <a href="http://linkedin.com/in/lisanam-js">http://linkedin.com/in/lisanam-js</a>  | <a href='http://angel.co/lisa-nam'>http://angel.co/lisa-nam</a> |
 
 ## Contributing
 

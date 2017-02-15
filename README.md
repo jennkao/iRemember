@@ -114,6 +114,9 @@ $ grunt start-dev
 [Mobile Client] Failed Face Lookup Screen
 <img src="https://image.ibb.co/jrR5BF/IMG_4870.png" alt="IMG 4870" border="0" />
 
+[Mobile Client] Push Notifications
+<img src="https://image.ibb.co/naz1La/unnamed.jpg" alt="unnamed" border="0" />
+
 ## Team
 
 | Name        | Github           | LinkedIn  | AngelList |

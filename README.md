@@ -85,7 +85,7 @@ $ grunt start-dev
 - Exponent
 - AWS
 
-##Screenshots
+## Screenshots
 
 [Web Client] Home and Login Screen
 <img src="https://image.ibb.co/fS4pMF/Screen_Shot_2017_02_09_at_11_42_33_AM.png" alt="Screen Shot 2017 02 09 at 11 42 33 AM" border="0" />

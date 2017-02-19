@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const request = require('request');
+const compression = require('compression');
 const app = express();
 const db = require('../database/db.js');
 
@@ -26,6 +27,7 @@ app.use(session({
 }))
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(compression())
 
 passport.use(new GoogleStrategy({
     clientID: process.env.GOOGLE_CLIENT_ID,
@@ -80,7 +82,7 @@ app.use('/auth', authRouter)
 
 //Serve static files and node modules
 app.use('/scripts', express.static(path.join(__dirname, '..', 'node_modules')))
-app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use(express.static(path.join(__dirname, '..', 'public'), {maxage: '1d'}));
 
 //Serve index.html at every other route that comes to server
 app.get('/*', function (req, res) {

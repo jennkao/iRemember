@@ -315,7 +315,7 @@ export default class FaceForm extends React.Component {
         {audioView}
         <br />
       </label>) : null;
-    const spinner = <span><img src={'/default.svg'} /></span>
+    const spinner = <span><img src={'/style/default.svg'} /></span>
 
 
 

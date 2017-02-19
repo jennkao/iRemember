@@ -47,21 +47,21 @@ class Reminder extends React.Component {
     var that = this
     var mapIcons = (type) => {
       if (type === 'Medication') {
-        return '/medical.png';
+        return '/style/reminder_icons/medical.png';
       } else if (type === 'Event') {
-        return '/christmas.png';
+        return '/style/reminder_icons/christmas.png';
       } else if (type === 'Chores') {
-        return '/sweep.png'; 
+        return '/style/reminder_icons/sweep.png'; 
       } else if (type === 'Social Engagement') {
-        return '/people.png';
+        return '/style/reminder_icons/people.png';
       } else if (type === 'Doctor Appointment') {
-        return '/doctor.png';
+        return '/style/reminder_icons/doctor.png';
       } else if (type === 'Groceries') {
-        return '/groceries.png';
+        return '/style/reminder_icons/groceries.png';
       } else if (type === 'Exercise') {
-        return '/bicycle.png';
+        return '/style/reminder_icons/bicycle.png';
       } else if (type === 'Other') {
-        return '/bell.png';
+        return '/style/reminder_icons/bell.png';
       }
     }
 
@@ -353,7 +353,7 @@ class Reminder extends React.Component {
   }
 
   render() {
-    const spinner = <span><img src={'/default.svg'} /></span>
+    const spinner = <span><img src={'/style/default.svg'} /></span>
     return (
       <Grid>
         <Row className="reminder-wrapper">

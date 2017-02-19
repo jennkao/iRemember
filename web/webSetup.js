@@ -102,7 +102,7 @@ export default class Setup extends React.Component {
   }
 
   render() {
-    const spinner = <span><img src={'/default.svg'} /></span>;
+    const spinner = <span><img src={'/style/default.svg'} /></span>;
     const patientHeader = needsSetup.get() ? 'Add your patient settings' : 'Update your patient settings';
     var cloudinaryUrls = this.state.patientPhotos.map(function(photoObj) {
       return photoObj.photo;

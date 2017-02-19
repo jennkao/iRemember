@@ -83,7 +83,11 @@ app.use('/scripts', express.static(path.join(__dirname, '..', 'node_modules')))
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 //Serve index.html at every other route that comes to server
-app.get('*', function (req, res) {
+app.get('/*', function (req, res) {
+  if (req.url.indexOf("/style") === 0 || req.url === 'bitmap@2x.jpg') {
+    res.setHeader("Cache-Control", "public, max-age=86164");
+    res.setHeader("Expires", new Date(Date.now() + 86164).toUTCString());
+  }
   res.sendFile(path.join(__dirname, '..', 'public/webIndex.html'));
 });
 
